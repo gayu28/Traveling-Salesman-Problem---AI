@@ -28,4 +28,3 @@ if __name__ == "__main__":
         random_seed = random.choice(random_seed_values)
         
         generate_inputs(N, P, N_mean, N_variance, K, random_seed)
-

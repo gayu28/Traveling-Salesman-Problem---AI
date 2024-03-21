@@ -16,6 +16,7 @@ if __name__ == "__main__":
     N_variance_values = range(5, 50, 10)  # Plausible values for N_variance
     K_values = [100, 500, 1000, 5000, 1000, 1500]  # Plausible values for K
     random_seed_values = [42, 123, 456]  # Plausible values for random_seed
+    
 
     # Generate 100 random combinations of parameters
     for _ in range(10):
@@ -27,4 +28,3 @@ if __name__ == "__main__":
         random_seed = random.choice(random_seed_values)
         
         generate_inputs(N, P, N_mean, N_variance, K, random_seed)
-
